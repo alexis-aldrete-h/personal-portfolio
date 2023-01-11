@@ -1,0 +1,50 @@
+h1, ul ,li{
+    margin: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 20vh;
+}
+
+.navbar{
+    display: flex;
+    padding: 0;
+    flex-flow: row wrap;
+}
+
+.navbar-item{
+    display: flex;
+}
+
+#logo,
+#navbar-extra-cont{
+    flex-grow: 1;
+}
+
+#navbar-menu{
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.navbar-menu-item{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.navbar-menu-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+#logo{
+    padding: 0.5rem 3rem;
+}
+
+#logo img{
+    max-height: 2.5rem;
+}
+
