@@ -4,28 +4,34 @@ h1, ul ,li{
 
 .header{
     width: 100vw;
-    height: 20vh;
+    height:4vh;
+    background-color: orange;
 }
 
 .navbar{
     display: flex;
     padding: 0;
     flex-flow: row wrap;
+    height: 100%;
 }
 
 .navbar-item{
     display: flex;
+    border: solid 2px black;
 }
 
 #logo,
 #navbar-extra-cont{
-    flex-grow: 1;
+    flex: 1 1 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
 }
 
 #navbar-menu{
     justify-content: center;
     align-items: center;
-    flex-grow: 3;
+    flex: 3 1 0px;
 }
 
 .navbar-menu-item{
@@ -40,9 +46,6 @@ h1, ul ,li{
     font-size: 0.9rem;
 }
 
-#logo{
-    padding: 0.5rem 3rem;
-}
 
 #logo img{
     max-height: 2.5rem;
