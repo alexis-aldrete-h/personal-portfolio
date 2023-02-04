@@ -5,20 +5,23 @@ function Header() {
     <div className="header">
       <ul className="navbar">
         <div className="navbar-item" id="logo">
-          <img src={"/images/logo-black.png"}></img>
+          <img src={"/images/saxeCLogo.png"}></img>
         </div>
         <div className="navbar-item" id="navbar-menu">
           <li className="navbar-menu-item">
             <a href="#">Home</a>
           </li>
           <li className="navbar-menu-item">
-            <a href="#">Second</a>
+            <a href="#">Transformations</a>
           </li>
           <li className="navbar-menu-item">
-            <a href="#">Third</a>
+            <a href="#">Products</a>
           </li>
           <li className="navbar-menu-item">
-            <a href="#">Fourth</a>
+            <a href="#">Portfolio</a>
+          </li>
+          <li className="navbar-menu-item">
+            <a href="#">Team</a>
           </li>
         </div>
         <div className="navbar-item" id="navbar-extra-cont"></div>

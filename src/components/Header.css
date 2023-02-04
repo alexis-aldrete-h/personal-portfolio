@@ -4,8 +4,8 @@ h1, ul ,li{
 
 .header{
     width: 100vw;
-    height:4vh;
-    background-color: orange;
+    height:6vh;
+    background-color: black;
 }
 
 .navbar{
@@ -17,7 +17,6 @@ h1, ul ,li{
 
 .navbar-item{
     display: flex;
-    border: solid 2px black;
 }
 
 #logo,
@@ -41,13 +40,13 @@ h1, ul ,li{
 
 .navbar-menu-item a{
     text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 0.9rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 
 #logo img{
-    max-height: 2.5rem;
+    max-height: 3rem;
 }
 
